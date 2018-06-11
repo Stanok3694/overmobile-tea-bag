@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="login"
+    errors="1" failures="0" hostname="" id="" package="login" skipped="0"
+    tests="1" time="0.02800" timestamp="Mon, 11 Jun 2018 19:11:56 GMT">
+  
+    <testcase name="login into http://mpets.mobi/" classname="login" time="0.02800" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Login / login into http://mpets.mobi/]:
+
+  TypeError: client.expect.element(...).to.have.attribute(...).which.contains(...).end is not a function
+    at Object.login into http://mpets.mobi/ (C:\Clicker\tests\login.js:15:9)
+    at Module.call (C:\Users\likan\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\likan\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\likan\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\likan\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\likan\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\likan\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\likan\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\likan\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
